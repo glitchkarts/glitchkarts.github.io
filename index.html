@@ -12,6 +12,7 @@
     <meta http-equiv="audience" content="General">
     <link rel="icon" href="rs/imgs/favicon-16x16.png">
     <title>GlitchKarts | Play GlitchKarts Game</title>
+    <link rel="canonical" href="https://www.glitchkarts.pro/">
     <meta name="keywords" content="glitchkarts">
     <meta name="news_keywords" content="glitchkarts">
     <meta name="description" content="GlitchKarts - Experience the ultimate glitch-filled kart racing adventure! Race through chaotic tracks, master power-ups, and compete in thrilling multiplayer battles. Play now!">
@@ -20,6 +21,23 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@500;600;700&display=swap" rel="stylesheet">
+    <style>
+        .play-now-button:hover {
+            background: #f5e84d;
+            transform: translate(-50%, -50%) scale(1.1);
+            box-shadow: 0 20px 60px rgba(239, 224, 60, 0.6), 0 8px 30px rgba(0, 0, 0, 0.5);
+            border: 4px solid #000;
+        }
+        .play-now-button:active {
+            transform: translate(-50%, -50%) scale(1.05);
+        }
+    </style>
+    <!-- Privacy-friendly analytics by Plausible -->
+    <script async src="https://plausible.io/js/pa-OxBu9LiDQADlLzOknVHE8.js"></script>
+    <script>
+      window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
+      plausible.init()
+    </script>
 	</head>
 
 <body><!--MENU-->
@@ -63,8 +81,9 @@
     <div class="container">
 
         <div class="row">
-            <div class="frame-box-game">
-                <iframe title="GlitchKarts" id="iframehtml5" class="d-block" width="100%" height="600px" target="_parent" src="https://glitchkarts.com/474c49544348204b41525453" frameborder="0" border="0" scrolling="no" allowfullscreen=""></iframe>
+            <div class="frame-box-game" style="position: relative;">
+                <img src="rs/imgs/glitchkarts.webp" alt="GlitchKarts" class="d-block" style="width: 100%; height: 600px; object-fit: cover;">
+                <a href="https://www.glitchkarts.pro/" target="_blank" class="play-now-button" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: #efe03c; color: #000; padding: 25px 60px; font-size: 32px; font-weight: 900; text-decoration: none; border-radius: 50px; box-shadow: 0 15px 50px rgba(0, 0, 0, 0.4), 0 5px 20px rgba(0, 0, 0, 0.3); transition: all 0.3s ease; z-index: 1000; font-family: 'Nunito Sans', sans-serif; text-transform: uppercase; letter-spacing: 2px; border: 3px solid #000; text-shadow: none;">Play Now</a>
                 <div class="header-game">
                     <div class="box-header">
                         <h1>GlitchKarts</h1>
