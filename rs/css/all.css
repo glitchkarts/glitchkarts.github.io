@@ -928,6 +928,11 @@ header {
     text-transform: capitalize;
 }
 
+.overwrite-breadcumb .bread-crumb-item,
+.overwrite-breadcumb .bread-crumb-item a {
+    color: #fdfe03;
+}
+
 .bread-after:before {
     content: "»";
     margin: 0 5px;
