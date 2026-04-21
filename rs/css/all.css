@@ -1095,6 +1095,35 @@ header {
     background-color: #000;
 }
 
+footer {
+    margin-top: 24px;
+    background: #003d78;
+    border-top: 1px solid #0077e9;
+}
+
+.footer-links {
+    padding: 20px 0;
+}
+
+.footer-links-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px 18px;
+    text-align: center;
+}
+
+.footer-links-list a {
+    color: #fdfe03;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.footer-links-list a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
 
 
 @media (min-width: 992px) {
